@@ -119,3 +119,48 @@ Berikut adalah tag bagaimana menambahkan foto ke dalam HTML yaitu dengan menggun
 </body>
 </html>
 ```
+
+## Menambahkan Link
+![menambahkan_link](img/link.png)
+
+Tag link menggunakan tag navigasi dimana tag tersebut seoerti (a herf) link ini akan menuju internal atau eksternal
+
+## contoh coding
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Dasar HTML</title>
+</head>
+
+<body>
+    <!-- menambahkan navigasi -->
+    <nav>
+        <a href="tag_dasar.html">Dasar HTML</a>
+        <a href="halaman2.html">Halaman2</a>
+        <a href="https://www.youtube.com/watch?v=z3m8QLCxCl0">Halaman Web Eksternal Google</a>
+    </nav>
+    <hr>
+    <!-- judul paragraf pertama -->
+    <h1>Belajar Dasar HTML</h1>
+    <!-- paragraf pertama -->
+    <p align="center"> Saya adala Indira Aline <span style="background-color: greenyellow;">mahasiswa Universitas Pelita</span>
+        Bangsa jurusan <b>Teknik Informatika</b>> sedang belajar mata kuliah Pemrograman Web pertama saya belajar tag
+        dasar</p>
+
+    <!-- judul paragraf kedua -->
+    <h2>Paragraf Pada HTML</h2>
+    <p align="right"><i>HTML adalah struktur<i> atau kerangka dalam membuat website yang terdiri atas <u>head body dan tag penutup HTML</u></p>
+
+    <!-- sub judul gambar -->
+    <h2>Menambahkan gambar</h2>
+    <!-- Menambahkan gambar pada dokumen -->
+    <img src="img/logo_UPB.png" alt="upb" title="Logo Universitas Pelita Bangsa" width="200px">
+
+</body>
+</html>
+```

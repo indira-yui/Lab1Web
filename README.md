@@ -55,7 +55,7 @@ Berikut contoh heading, heading adalah sebagai judul dari sebuah artikel web. (h
 </html>
 ```
 
-## teks format
+## Teks Format
 ![menambahkan_teksformat](img/teks_format.png)
 
 Contoh dari teks format seperti menambahkan (span) untuk warna teks atau background-color teks, sementara untuk bold memiliki code (b) untuk cetak tebal, dan untuk teks miring yaitu memiliki code (i) dan garis bawah yaitu (u)
@@ -78,6 +78,44 @@ Contoh dari teks format seperti menambahkan (span) untuk warna teks atau backgro
     <!-- judul paragraf kedua -->
     <h2>Paragraf Pada HTML</h2>
     <p align="right"><i>HTML adalah struktur<i> atau kerangka dalam membuat website yang terdiri atas <u>head body dan tag penutup HTML</u></p>
+</body>
+</html>
+```
+
+## Mnambahkan Gambar
+![menambahkan_gambar](img/gambar.png)
+
+Berikut adalah tag bagaimana menambahkan foto ke dalam HTML yaitu dengan menggunakan tag (img) kemudian simpan file source difolder yang sudah dibuat sebelumnya
+
+## contoh coding
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Dasar HTML</title>
+</head>
+
+<body>
+    <!-- judul paragraf pertama -->
+    <h1>Belajar Dasar HTML</h1>
+    <!-- paragraf pertama -->
+    <p align="center"> Saya Indira Aline <span style="background-color: greenyellow;">mahasiswa Universitas Pelita</span>
+        Bangsa jurusan <b>Teknik Informatika</b>> sedang belajar mata kuliah Pemrograman Web pertama saya belajar tag
+        dasar</p>
+
+    <!-- judul paragraf kedua -->
+    <h2>Paragraf Pada HTML</h2>
+    <p align="right"><i>HTML adalah struktur<i> atau kerangka dalam membuat website yang terdiri atas <u>head body dan tag penutup HTML</u></p>
+
+    <!-- sub judul gambar -->
+    <h2>Menambahkan gambar</h2>
+    <!-- Menambahkan gambar pada dokumen -->
+    <img src="img/logo_UPB.png" alt="upb" title="Logo Universitas Pelita Bangsa" width="200px">
+
 </body>
 </html>
 ```
